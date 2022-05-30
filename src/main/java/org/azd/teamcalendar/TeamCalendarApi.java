@@ -18,7 +18,7 @@ import org.azd.utils.AzDAsyncApi;
 public class TeamCalendarApi extends AzDAsyncApi<TeamCalendarApi> implements TeamCalendar {
 
 	private static final String API_VERSION = "6.1-preview.1";
-	private static final String RESOURCE_ID = "extensionmanagement";
+	private static final String RESOURCE_ID = "6c2b0933-3600-42ae-bf8b-93d4f7e83594";
 	private static final JsonMapper MAPPER = new JsonMapper();
 
 	private final Connection conn;
